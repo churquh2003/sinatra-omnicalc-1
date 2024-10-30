@@ -5,7 +5,9 @@ get("/howdy") do
  erb(:hello)
 end
 
-get("/") do
+get("/goodbye") do
+  erb(:bye)
+end 
   "
   <h1>Welcome to your Sinatra App!</h1>
   <p>Define some routes in app.rb</p>
